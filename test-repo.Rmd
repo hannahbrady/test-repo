@@ -1,0 +1,19 @@
+---
+title: "Practicing Git in Discussion"
+author: "Hannah Brady"
+date: "10/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Here is a plot
+
+```{r}
+ggplot(data = mpg, aes(x = class, y = cty)) +
+	geom_jitter()
+```
+
